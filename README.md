@@ -11,11 +11,11 @@ This application was created to test the speed of three Java libraries. It repea
 ## Usage
 java -jar [jar-one-jar.jar] [target uri] [number of requests per client]
 
-**example:**  
+#### Example usage:
 ```
 java -jar target/java-http-get-clients-2.0.0.2-SNAPSHOT.one-jar.jar http://www.slashdot.org 30 
 ```
-**example output:**  
+#### Example output: 
 ```
 == BEGIN ==  
 Calling HTTP GET on http://www.slashdot.org 30 times  
